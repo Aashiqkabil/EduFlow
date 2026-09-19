@@ -1,0 +1,37 @@
+[
+  {
+    "id": "d1",
+    "name": "Computer Science & Engineering",
+    "headId": "4",
+    "staffCount": 15,
+    "status": "Active"
+  },
+  {
+    "id": "d2",
+    "name": "Computer Science & Business Systems",
+    "headId": "",
+    "staffCount": 8,
+    "status": "Active"
+  },
+  {
+    "id": "d3",
+    "name": "Electronics & Communication Engineering",
+    "headId": "",
+    "staffCount": 12,
+    "status": "Active"
+  },
+  {
+    "id": "d4",
+    "name": "Mechanical Engineering",
+    "headId": "",
+    "staffCount": 10,
+    "status": "Active"
+  },
+  {
+    "id": "d5",
+    "name": "Management Studies",
+    "headId": "",
+    "staffCount": 5,
+    "status": "Active"
+  }
+]

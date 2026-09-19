@@ -1,0 +1,29 @@
+[
+  {
+    "id": "n1",
+    "userId": "5",
+    "title": "New Task Assigned",
+    "message": "You have been assigned: NAAC Documentation",
+    "type": "Task Assigned",
+    "isRead": true,
+    "createdAt": "2026-09-17T16:43:05.778Z"
+  },
+  {
+    "id": "fe34e521-0eab-4644-a3a5-d61b7c30eac5",
+    "userId": "5",
+    "title": "Task Approved",
+    "message": "Your task \"CSE Sem 5 Section A — Attendance Report\" has been approved by HOD Prof. Williams (HOD).",
+    "type": "Task Approved",
+    "isRead": true,
+    "createdAt": "2026-09-19T16:29:31.415Z"
+  },
+  {
+    "id": "463b2035-1718-4733-9d51-cee23006ff10",
+    "userId": "5",
+    "title": "Task Rejected",
+    "message": "Your task \"CSE Sem 5 Section B — Attendance Report\" was rejected by HOD Prof. Williams (HOD). Reason: Attendance figures incorrect",
+    "type": "Task Rejected",
+    "isRead": true,
+    "createdAt": "2026-09-19T16:29:31.439Z"
+  }
+]

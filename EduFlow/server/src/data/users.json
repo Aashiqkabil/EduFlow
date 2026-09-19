@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "name": "Admin User",
+    "email": "admin@eduflow.demo",
+    "role": "Admin",
+    "department": "Administration",
+    "employeeId": "E001",
+    "designation": "System Administrator",
+    "status": "Active"
+  },
+  {
+    "id": "2",
+    "name": "Principal Dr. Smith",
+    "email": "principal@eduflow.demo",
+    "role": "Principal",
+    "department": "Administration",
+    "employeeId": "E002",
+    "designation": "Principal",
+    "status": "Active"
+  },
+  {
+    "id": "3",
+    "name": "Dean Dr. Johnson",
+    "email": "dean@eduflow.demo",
+    "role": "Dean",
+    "department": "Administration",
+    "employeeId": "E003",
+    "designation": "Dean of Academics",
+    "status": "Active"
+  },
+  {
+    "id": "4",
+    "name": "HOD Prof. Williams",
+    "email": "hod@eduflow.demo",
+    "role": "HOD",
+    "department": "Computer Science & Engineering",
+    "employeeId": "E004",
+    "designation": "Head of Department",
+    "status": "Active"
+  },
+  {
+    "id": "5",
+    "name": "Staff Mr. Davis",
+    "email": "staff@eduflow.demo",
+    "role": "Staff",
+    "department": "Computer Science & Engineering",
+    "employeeId": "E005",
+    "designation": "Assistant Professor",
+    "status": "Active"
+  }
+]

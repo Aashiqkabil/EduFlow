@@ -1,0 +1,470 @@
+[
+  {
+    "id": "t1",
+    "title": "NAAC Documentation",
+    "description": "Prepare criteria 3 documents for upcoming NAAC visit.",
+    "priority": "High",
+    "dueDate": "2026-10-15",
+    "createdBy": {
+      "userId": "4",
+      "name": "HOD Prof. Williams",
+      "role": "HOD"
+    },
+    "assignmentType": "ASSIGNED",
+    "assignedTo": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "attachments": [],
+    "status": "IN_PROGRESS",
+    "currentApproverRole": null,
+    "createdAt": "2026-09-17T16:43:05.776Z",
+    "updatedAt": "2026-09-17T16:43:05.777Z",
+    "timeline": [
+      {
+        "action": "CREATED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-17T16:43:05.777Z"
+      },
+      {
+        "action": "ASSIGNED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-17T16:43:05.777Z"
+      }
+    ]
+  },
+  {
+    "id": "t2",
+    "title": "Q1 Staff Appraisal",
+    "description": "Quarterly review achievements and teaching activities.",
+    "priority": "Medium",
+    "dueDate": "2026-09-30",
+    "createdBy": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "assignmentType": "SELF",
+    "assignedTo": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "attachments": [],
+    "status": "APPROVED",
+    "currentApproverRole": null,
+    "createdAt": "2026-09-17T16:43:05.778Z",
+    "updatedAt": "2026-09-17T16:43:05.778Z",
+    "timeline": [
+      {
+        "action": "CREATED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-17T16:43:05.778Z"
+      },
+      {
+        "action": "SUBMITTED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-17T16:43:05.778Z"
+      },
+      {
+        "action": "APPROVED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-17T16:43:05.778Z"
+      },
+      {
+        "action": "APPROVED",
+        "actorId": "3",
+        "actorName": "Dean Dr. Johnson",
+        "actorRole": "Dean",
+        "timestamp": "2026-09-17T16:43:05.778Z"
+      },
+      {
+        "action": "APPROVED",
+        "actorId": "2",
+        "actorName": "Principal Dr. Smith",
+        "actorRole": "Principal",
+        "timestamp": "2026-09-17T16:43:05.778Z"
+      }
+    ]
+  },
+  {
+    "id": "e9746caa-b026-4414-87be-6f01db29a6af",
+    "title": "Test Task A",
+    "description": "Test Description A",
+    "priority": "High",
+    "dueDate": "2026-12-31",
+    "createdBy": {
+      "userId": "4",
+      "name": "HOD Prof. Williams",
+      "role": "HOD"
+    },
+    "assignmentType": "ASSIGNED",
+    "assignedTo": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "attachments": [
+      {
+        "id": "6080d538-a68c-4afe-b2a0-824c139af60f",
+        "originalName": "dummy.pdf",
+        "storedName": "01673147-9233-4469-886b-480b8f7f5b06-dummy.pdf",
+        "path": "C:\\Users\\aashi\\Approval\\EduFlow\\server\\src\\data\\uploads\\01673147-9233-4469-886b-480b8f7f5b06-dummy.pdf",
+        "mimeType": "application/pdf",
+        "size": 29
+      }
+    ],
+    "status": "SUBMITTED",
+    "currentApproverRole": "Dean",
+    "createdAt": "2026-09-17T16:47:48.566Z",
+    "updatedAt": "2026-09-17T16:47:48.657Z",
+    "timeline": [
+      {
+        "action": "CREATED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-17T16:47:48.566Z"
+      },
+      {
+        "action": "ASSIGNED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-17T16:47:48.567Z"
+      },
+      {
+        "action": "SUBMITTED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-17T16:47:48.606Z"
+      },
+      {
+        "action": "APPROVED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-17T16:47:48.657Z"
+      }
+    ]
+  },
+  {
+    "id": "e3e5431f-5958-4fb2-914b-fb8f6dd42124",
+    "title": "Test Task B (Self)",
+    "description": "Test Description A",
+    "priority": "High",
+    "dueDate": "2026-12-31",
+    "createdBy": {
+      "userId": "4",
+      "name": "HOD Prof. Williams",
+      "role": "HOD"
+    },
+    "assignmentType": "SELF",
+    "assignedTo": {
+      "userId": "4",
+      "name": "HOD Prof. Williams",
+      "role": "HOD"
+    },
+    "attachments": [
+      {
+        "id": "460c26a4-b031-49f3-bf60-f19f3a1b4f77",
+        "originalName": "dummy.pdf",
+        "storedName": "79745643-78f4-4e1e-abb8-3afd0da5655c-dummy.pdf",
+        "path": "C:\\Users\\aashi\\Approval\\EduFlow\\server\\src\\data\\uploads\\79745643-78f4-4e1e-abb8-3afd0da5655c-dummy.pdf",
+        "mimeType": "application/pdf",
+        "size": 29
+      }
+    ],
+    "status": "SUBMITTED",
+    "currentApproverRole": "Dean",
+    "createdAt": "2026-09-17T16:47:48.668Z",
+    "updatedAt": "2026-09-17T16:47:48.682Z",
+    "timeline": [
+      {
+        "action": "CREATED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-17T16:47:48.668Z"
+      },
+      {
+        "action": "SUBMITTED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-17T16:47:48.682Z"
+      }
+    ]
+  },
+  {
+    "id": "c67bb5e5-58bc-4a4f-bc37-ee8442e2f3e1",
+    "title": "Perfomance Report",
+    "description": "performance report",
+    "priority": "High",
+    "dueDate": "2026-09-18",
+    "createdBy": {
+      "userId": "4",
+      "name": "HOD Prof. Williams",
+      "role": "HOD"
+    },
+    "assignmentType": "ASSIGNED",
+    "assignedTo": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "attachments": [],
+    "status": "SUBMITTED",
+    "currentApproverRole": "HOD",
+    "createdAt": "2026-09-17T16:51:39.400Z",
+    "updatedAt": "2026-09-17T16:52:03.499Z",
+    "timeline": [
+      {
+        "action": "CREATED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-17T16:51:39.400Z"
+      },
+      {
+        "action": "ASSIGNED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-17T16:51:39.400Z"
+      },
+      {
+        "action": "SUBMITTED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-17T16:52:03.499Z"
+      }
+    ]
+  },
+  {
+    "id": "bf6dbb45-2b42-4f43-bde4-3e04447cdf5e",
+    "title": "Attendence report ",
+    "description": "attendence Report",
+    "priority": "High",
+    "dueDate": "2026-09-30",
+    "createdBy": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "assignmentType": "SELF",
+    "assignedTo": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "attachments": [
+      {
+        "id": "ef65b691-bf83-441f-9356-5720b1caf828",
+        "originalName": "54713.jpg",
+        "storedName": "80131730-9743-4cbe-b3c8-512043370978-54713.jpg",
+        "path": "C:\\Users\\aashi\\Approval\\EduFlow\\server\\src\\data\\uploads\\80131730-9743-4cbe-b3c8-512043370978-54713.jpg",
+        "mimeType": "image/jpeg",
+        "size": 244224
+      }
+    ],
+    "status": "ASSIGNED",
+    "currentApproverRole": null,
+    "createdAt": "2026-09-17T16:56:03.502Z",
+    "updatedAt": "2026-09-17T16:56:03.502Z",
+    "timeline": [
+      {
+        "action": "CREATED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-17T16:56:03.502Z"
+      }
+    ]
+  },
+  {
+    "id": "a711d4e4-5e1c-47bb-9a18-aafe6122d781",
+    "title": "final result analysis ",
+    "description": "final tear result analysis",
+    "priority": "Medium",
+    "dueDate": "2026-09-30",
+    "createdBy": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "assignmentType": "SELF",
+    "assignedTo": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "attachments": [
+      {
+        "id": "9634648c-3cc7-4004-a44d-abd1fd44db0d",
+        "originalName": "54713.jpg",
+        "storedName": "ad8b27a0-e2e0-4974-9528-e2b38a471d60-54713.jpg",
+        "path": "D:\\Aashiq's WORLD\\projects\\Approval\\EduFlow\\server\\src\\data\\uploads\\ad8b27a0-e2e0-4974-9528-e2b38a471d60-54713.jpg",
+        "mimeType": "image/jpeg",
+        "size": 244224
+      }
+    ],
+    "status": "ASSIGNED",
+    "currentApproverRole": null,
+    "createdAt": "2026-09-19T15:17:44.520Z",
+    "updatedAt": "2026-09-19T15:17:44.520Z",
+    "timeline": [
+      {
+        "action": "CREATED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T15:17:44.520Z"
+      }
+    ]
+  },
+  {
+    "id": "fa46ae90-6eec-400a-a2fb-313ea90741aa",
+    "title": "CSE Sem 5 Section A — Attendance Report",
+    "description": "Average attendance: 87.5%. Semester 5.",
+    "priority": "High",
+    "dueDate": "2026-10-30",
+    "taskType": "Attendance Report",
+    "createdBy": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "assignmentType": "SELF",
+    "assignedTo": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "attachments": [],
+    "status": "APPROVED",
+    "currentApproverRole": null,
+    "currentApproverId": null,
+    "createdAt": "2026-09-19T16:29:31.371Z",
+    "updatedAt": "2026-09-19T16:29:31.412Z",
+    "timeline": [
+      {
+        "action": "CREATED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T16:29:31.371Z"
+      },
+      {
+        "action": "SUBMITTED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T16:29:31.379Z"
+      },
+      {
+        "action": "APPROVED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-19T16:29:31.412Z"
+      }
+    ]
+  },
+  {
+    "id": "33e62b75-9af4-4bf4-aec1-df4d421f9244",
+    "title": "CSE Sem 5 Section B — Attendance Report",
+    "description": "Test rejection flow.",
+    "priority": "Medium",
+    "dueDate": "2026-11-01",
+    "taskType": "Attendance Report",
+    "createdBy": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "assignmentType": "SELF",
+    "assignedTo": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "attachments": [],
+    "status": "REJECTED",
+    "currentApproverRole": null,
+    "currentApproverId": null,
+    "createdAt": "2026-09-19T16:29:31.426Z",
+    "updatedAt": "2026-09-19T16:29:31.437Z",
+    "timeline": [
+      {
+        "action": "CREATED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T16:29:31.426Z"
+      },
+      {
+        "action": "SUBMITTED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T16:29:31.432Z"
+      },
+      {
+        "action": "REJECTED",
+        "reason": "Attendance figures incorrect",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-19T16:29:31.437Z"
+      }
+    ]
+  },
+  {
+    "id": "a9c00030-a102-4f2f-b82b-0edc107384f5",
+    "title": "Result Analysis Q1",
+    "description": "TBD type test.",
+    "priority": "Low",
+    "dueDate": "2026-11-15",
+    "taskType": "Result Analysis",
+    "createdBy": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "assignmentType": "SELF",
+    "assignedTo": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "attachments": [],
+    "status": "DRAFT",
+    "currentApproverRole": null,
+    "currentApproverId": null,
+    "createdAt": "2026-09-19T16:29:31.452Z",
+    "updatedAt": "2026-09-19T16:29:31.452Z",
+    "timeline": [
+      {
+        "action": "CREATED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T16:29:31.452Z"
+      }
+    ]
+  }
+]
