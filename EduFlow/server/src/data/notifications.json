@@ -25,5 +25,170 @@
     "type": "Task Rejected",
     "isRead": true,
     "createdAt": "2026-09-19T16:29:31.439Z"
+  },
+  {
+    "id": "497746cf-8f96-4106-b7e0-30682f0410c5",
+    "userId": "5",
+    "title": "Task Approved",
+    "message": "Your task \"Attendance Report — 2026-09-19\" has been approved by HOD Prof. Williams (HOD).",
+    "type": "Task Approved",
+    "isRead": true,
+    "createdAt": "2026-09-19T17:11:51.112Z"
+  },
+  {
+    "id": "05c5ce38-1eca-4759-a51b-d0f03ea5b162",
+    "userId": "5",
+    "title": "Task Rejected",
+    "message": "Your task \"Attendance Report — 2026-09-19\" was rejected by HOD Prof. Williams (HOD). Reason: Data is incorrect",
+    "type": "Task Rejected",
+    "isRead": true,
+    "createdAt": "2026-09-19T17:11:51.205Z"
+  },
+  {
+    "id": "60b64a69-8072-4178-9f01-e5e9fb749d03",
+    "userId": "5",
+    "title": "Changes Requested",
+    "message": "Changes requested for task \"Attendance Report — 2026-09-19\" by HOD Prof. Williams. Comment: Please recheck semester 3 data",
+    "type": "Changes Requested",
+    "isRead": true,
+    "createdAt": "2026-09-19T17:11:51.253Z"
+  },
+  {
+    "id": "462643ba-bdab-43a5-9b9d-f8400c03bda9",
+    "userId": "5",
+    "title": "New Task Assigned",
+    "message": "HOD Prof. Williams (HOD) has assigned you: \"Attendance Report — 2026-09-19\" [Attendance Report] — Class: CSE – III Year – A",
+    "type": "NEW_TASK_ASSIGNED",
+    "isRead": false,
+    "createdAt": "2026-09-19T17:11:51.274Z",
+    "taskId": "061a8114-8a97-404c-a7e6-193edf886d17"
+  },
+  {
+    "id": "3b576a7d-6e5e-45ad-b30e-64d1b06e62b4",
+    "userId": "5",
+    "title": "New Task Assigned",
+    "message": "HOD Prof. Williams (HOD) has assigned you: \"Attendance Report — 2026-09-19\" [Attendance Report] — Class: FAKE CLASS",
+    "type": "NEW_TASK_ASSIGNED",
+    "isRead": false,
+    "createdAt": "2026-09-19T17:11:51.289Z",
+    "taskId": "ffbe885c-3ec0-46d7-a996-f9d0b78c5b41"
+  },
+  {
+    "id": "4b60aa0b-108f-47cd-a246-143deee51c79",
+    "userId": "4",
+    "title": "Task Approved",
+    "message": "Your task \"Perfomance Report\" has been approved by HOD Prof. Williams (HOD).",
+    "type": "Task Approved",
+    "isRead": true,
+    "createdAt": "2026-09-19T17:23:32.632Z"
+  },
+  {
+    "id": "97e4c9f4-29b6-4766-a7c0-5f259e0cf5ff",
+    "userId": "5",
+    "title": "Task Approved",
+    "message": "The task \"Perfomance Report\" you submitted was approved by HOD Prof. Williams (HOD).",
+    "type": "Task Approved",
+    "isRead": true,
+    "createdAt": "2026-09-19T17:23:32.634Z"
+  },
+  {
+    "id": "d72de096-0e21-47c1-9659-2118f9e855c0",
+    "userId": "5",
+    "title": "Task Approved",
+    "message": "Your task \"Attendance Report — 2026-09-19\" has been approved by HOD Prof. Williams (HOD).",
+    "type": "Task Approved",
+    "isRead": true,
+    "createdAt": "2026-09-19T17:23:33.359Z"
+  },
+  {
+    "id": "b9d5dc70-9b53-4af0-a0c8-2ec3a70a9e2d",
+    "userId": "5",
+    "title": "Task Approved",
+    "message": "Your task \"Attendance Report — 2026-09-19\" has been approved by HOD Prof. Williams (HOD).",
+    "type": "Task Approved",
+    "isRead": true,
+    "createdAt": "2026-09-19T17:23:33.750Z"
+  },
+  {
+    "id": "65f03ff6-7bd5-466a-b1ba-b3b9c06c6432",
+    "userId": "4",
+    "title": "Task Approved",
+    "message": "Your task \"Attendance Report — 2026-09-19\" has been approved by HOD Prof. Williams (HOD).",
+    "type": "Task Approved",
+    "isRead": true,
+    "createdAt": "2026-09-19T17:23:34.142Z"
+  },
+  {
+    "id": "98c6befb-0f1c-4c43-86e8-a39d870e75b8",
+    "userId": "5",
+    "title": "Task Approved",
+    "message": "The task \"Attendance Report — 2026-09-19\" you submitted was approved by HOD Prof. Williams (HOD).",
+    "type": "Task Approved",
+    "isRead": true,
+    "createdAt": "2026-09-19T17:23:34.144Z"
+  },
+  {
+    "id": "2e9526db-11bb-4066-a05a-7aa0fe9f111f",
+    "userId": "5",
+    "title": "Task Approved",
+    "message": "Your task \"Attendance Report — 2026-09-19\" has been approved by HOD Prof. Williams (HOD).",
+    "type": "Task Approved",
+    "isRead": true,
+    "createdAt": "2026-09-19T17:59:14.220Z"
+  },
+  {
+    "id": "e6ee8705-6fa0-4cc5-a60f-234d8322b8b8",
+    "userId": "5",
+    "title": "New Task Assigned",
+    "message": "HOD Prof. Williams (HOD) has assigned you: \"Performance Report — 2026-09-19\" [Performance Report] — Class: CSE – II Year – B",
+    "type": "NEW_TASK_ASSIGNED",
+    "isRead": true,
+    "createdAt": "2026-09-19T18:00:18.891Z",
+    "taskId": "9c45f65c-436c-4add-8d45-bf00b6f634d9"
+  },
+  {
+    "id": "1178bfc9-ad3e-4123-9b17-a723bc681398",
+    "userId": "4",
+    "title": "Task Approved",
+    "message": "Your task \"Performance Report — 2026-09-19\" has been approved by HOD Prof. Williams (HOD).",
+    "type": "Task Approved",
+    "isRead": false,
+    "createdAt": "2026-09-19T18:11:52.778Z"
+  },
+  {
+    "id": "543043bc-b51d-43c0-bfe3-2fe7392b358a",
+    "userId": "5",
+    "title": "Task Approved",
+    "message": "The task \"Performance Report — 2026-09-19\" you submitted was approved by HOD Prof. Williams (HOD).",
+    "type": "Task Approved",
+    "isRead": false,
+    "createdAt": "2026-09-19T18:11:52.781Z"
+  },
+  {
+    "id": "21e92462-dcf7-41bf-91fe-3b694836a9e4",
+    "userId": "4",
+    "title": "Task Approved",
+    "message": "Your task \"Test Task A\" has been approved by Dean Dr. Johnson (Dean).",
+    "type": "Task Approved",
+    "isRead": false,
+    "createdAt": "2026-09-19T18:11:58.251Z"
+  },
+  {
+    "id": "c8cf8734-7c5a-463a-8155-05897746e335",
+    "userId": "5",
+    "title": "Task Approved",
+    "message": "The task \"Test Task A\" you submitted was approved by Dean Dr. Johnson (Dean).",
+    "type": "Task Approved",
+    "isRead": false,
+    "createdAt": "2026-09-19T18:11:58.253Z"
+  },
+  {
+    "id": "56163b24-fb4f-4c6c-a8b0-22ab8682bdc1",
+    "userId": "4",
+    "title": "Task Approved",
+    "message": "Your task \"Test Task B (Self)\" has been approved by Dean Dr. Johnson (Dean).",
+    "type": "Task Approved",
+    "isRead": false,
+    "createdAt": "2026-09-19T18:11:59.010Z"
   }
 ]

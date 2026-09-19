@@ -8,6 +8,7 @@ import approvalRoutes from './routes/approvals';
 import notificationRoutes from './routes/notifications';
 import departmentRoutes from './routes/departments';
 import adminRoutes from './routes/admin';
+import classRoutes from './routes/classes';
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -24,6 +25,7 @@ app.use('/api/approvals', authenticateToken, approvalRoutes);
 app.use('/api/notifications', notificationRoutes);
 app.use('/api/departments', departmentRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/classes', authenticateToken, classRoutes);
 
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: 'EduFlow API is running' });

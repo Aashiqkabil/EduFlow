@@ -125,10 +125,10 @@
         "size": 29
       }
     ],
-    "status": "SUBMITTED",
-    "currentApproverRole": "Dean",
+    "status": "APPROVED",
+    "currentApproverRole": null,
     "createdAt": "2026-09-17T16:47:48.566Z",
-    "updatedAt": "2026-09-17T16:47:48.657Z",
+    "updatedAt": "2026-09-19T18:11:58.249Z",
     "timeline": [
       {
         "action": "CREATED",
@@ -157,8 +157,16 @@
         "actorName": "HOD Prof. Williams",
         "actorRole": "HOD",
         "timestamp": "2026-09-17T16:47:48.657Z"
+      },
+      {
+        "action": "APPROVED",
+        "actorId": "3",
+        "actorName": "Dean Dr. Johnson",
+        "actorRole": "Dean",
+        "timestamp": "2026-09-19T18:11:58.249Z"
       }
-    ]
+    ],
+    "currentApproverId": null
   },
   {
     "id": "e3e5431f-5958-4fb2-914b-fb8f6dd42124",
@@ -187,10 +195,10 @@
         "size": 29
       }
     ],
-    "status": "SUBMITTED",
-    "currentApproverRole": "Dean",
+    "status": "APPROVED",
+    "currentApproverRole": null,
     "createdAt": "2026-09-17T16:47:48.668Z",
-    "updatedAt": "2026-09-17T16:47:48.682Z",
+    "updatedAt": "2026-09-19T18:11:59.007Z",
     "timeline": [
       {
         "action": "CREATED",
@@ -205,8 +213,16 @@
         "actorName": "HOD Prof. Williams",
         "actorRole": "HOD",
         "timestamp": "2026-09-17T16:47:48.682Z"
+      },
+      {
+        "action": "APPROVED",
+        "actorId": "3",
+        "actorName": "Dean Dr. Johnson",
+        "actorRole": "Dean",
+        "timestamp": "2026-09-19T18:11:59.007Z"
       }
-    ]
+    ],
+    "currentApproverId": null
   },
   {
     "id": "c67bb5e5-58bc-4a4f-bc37-ee8442e2f3e1",
@@ -226,10 +242,10 @@
       "role": "Staff"
     },
     "attachments": [],
-    "status": "SUBMITTED",
-    "currentApproverRole": "HOD",
+    "status": "APPROVED",
+    "currentApproverRole": null,
     "createdAt": "2026-09-17T16:51:39.400Z",
-    "updatedAt": "2026-09-17T16:52:03.499Z",
+    "updatedAt": "2026-09-19T17:23:32.629Z",
     "timeline": [
       {
         "action": "CREATED",
@@ -251,8 +267,16 @@
         "actorName": "Staff Mr. Davis",
         "actorRole": "Staff",
         "timestamp": "2026-09-17T16:52:03.499Z"
+      },
+      {
+        "action": "APPROVED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-19T17:23:32.629Z"
       }
-    ]
+    ],
+    "currentApproverId": null
   },
   {
     "id": "bf6dbb45-2b42-4f43-bde4-3e04447cdf5e",
@@ -385,12 +409,19 @@
     ]
   },
   {
-    "id": "33e62b75-9af4-4bf4-aec1-df4d421f9244",
-    "title": "CSE Sem 5 Section B — Attendance Report",
-    "description": "Test rejection flow.",
-    "priority": "Medium",
-    "dueDate": "2026-11-01",
+    "id": "85afa777-42c1-468f-9e84-0c24cba8eeea",
+    "title": "Attendance Report — 2026-09-19",
+    "description": "Monthly attendance check",
+    "priority": "High",
+    "dueDate": "2026-11-30",
     "taskType": "Attendance Report",
+    "taskMeta": {
+      "classId": "c1",
+      "className": "CSE – III Year – A",
+      "semester": 5,
+      "academicYear": "2026–2027",
+      "averageAttendance": 87.5
+    },
     "createdBy": {
       "userId": "5",
       "name": "Staff Mr. Davis",
@@ -403,43 +434,56 @@
       "role": "Staff"
     },
     "attachments": [],
-    "status": "REJECTED",
+    "status": "APPROVED",
     "currentApproverRole": null,
     "currentApproverId": null,
-    "createdAt": "2026-09-19T16:29:31.426Z",
-    "updatedAt": "2026-09-19T16:29:31.437Z",
+    "createdAt": "2026-09-19T17:11:51.021Z",
+    "updatedAt": "2026-09-19T17:11:51.105Z",
     "timeline": [
       {
         "action": "CREATED",
         "actorId": "5",
         "actorName": "Staff Mr. Davis",
         "actorRole": "Staff",
-        "timestamp": "2026-09-19T16:29:31.426Z"
+        "timestamp": "2026-09-19T17:11:51.021Z"
+      },
+      {
+        "action": "UPDATED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T17:11:51.030Z"
       },
       {
         "action": "SUBMITTED",
         "actorId": "5",
         "actorName": "Staff Mr. Davis",
         "actorRole": "Staff",
-        "timestamp": "2026-09-19T16:29:31.432Z"
+        "timestamp": "2026-09-19T17:11:51.048Z"
       },
       {
-        "action": "REJECTED",
-        "reason": "Attendance figures incorrect",
+        "action": "APPROVED",
         "actorId": "4",
         "actorName": "HOD Prof. Williams",
         "actorRole": "HOD",
-        "timestamp": "2026-09-19T16:29:31.437Z"
+        "timestamp": "2026-09-19T17:11:51.105Z"
       }
     ]
   },
   {
-    "id": "a9c00030-a102-4f2f-b82b-0edc107384f5",
-    "title": "Result Analysis Q1",
-    "description": "TBD type test.",
-    "priority": "Low",
-    "dueDate": "2026-11-15",
-    "taskType": "Result Analysis",
+    "id": "67478731-9d55-4dbb-8a53-c887a1ad0536",
+    "title": "Attendance Report — 2026-09-19",
+    "description": "Rejection test",
+    "priority": "Medium",
+    "dueDate": "2026-12-01",
+    "taskType": "Attendance Report",
+    "taskMeta": {
+      "classId": "c1",
+      "className": "CSE – III Year – A",
+      "semester": 5,
+      "academicYear": "2026–2027",
+      "averageAttendance": 78.5
+    },
     "createdBy": {
       "userId": "5",
       "name": "Staff Mr. Davis",
@@ -452,18 +496,384 @@
       "role": "Staff"
     },
     "attachments": [],
-    "status": "DRAFT",
+    "status": "APPROVED",
     "currentApproverRole": null,
     "currentApproverId": null,
-    "createdAt": "2026-09-19T16:29:31.452Z",
-    "updatedAt": "2026-09-19T16:29:31.452Z",
+    "createdAt": "2026-09-19T17:11:51.179Z",
+    "updatedAt": "2026-09-19T17:23:33.358Z",
     "timeline": [
       {
         "action": "CREATED",
         "actorId": "5",
         "actorName": "Staff Mr. Davis",
         "actorRole": "Staff",
-        "timestamp": "2026-09-19T16:29:31.452Z"
+        "timestamp": "2026-09-19T17:11:51.179Z"
+      },
+      {
+        "action": "SUBMITTED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T17:11:51.190Z"
+      },
+      {
+        "action": "REJECTED",
+        "reason": "Data is incorrect",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-19T17:11:51.198Z"
+      },
+      {
+        "action": "UPDATED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T17:11:51.212Z"
+      },
+      {
+        "action": "SUBMITTED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T17:11:51.223Z"
+      },
+      {
+        "action": "APPROVED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-19T17:23:33.358Z"
+      }
+    ]
+  },
+  {
+    "id": "46260be0-78da-4b9c-8940-67b116fcfa9c",
+    "title": "Attendance Report — 2026-09-19",
+    "description": "Changes test",
+    "priority": "Medium",
+    "dueDate": "2026-12-15",
+    "taskType": "Attendance Report",
+    "taskMeta": {
+      "classId": "c2",
+      "className": "CSE – II Year – B",
+      "semester": 3,
+      "academicYear": "2026–2027",
+      "averageAttendance": 65
+    },
+    "createdBy": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "assignmentType": "SELF",
+    "assignedTo": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "attachments": [],
+    "status": "APPROVED",
+    "currentApproverRole": null,
+    "currentApproverId": null,
+    "createdAt": "2026-09-19T17:11:51.230Z",
+    "updatedAt": "2026-09-19T17:23:33.749Z",
+    "timeline": [
+      {
+        "action": "CREATED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T17:11:51.230Z"
+      },
+      {
+        "action": "SUBMITTED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T17:11:51.240Z"
+      },
+      {
+        "action": "CHANGES_REQUESTED",
+        "reason": "Please recheck semester 3 data",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-19T17:11:51.248Z"
+      },
+      {
+        "action": "SUBMITTED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T17:11:51.260Z"
+      },
+      {
+        "action": "APPROVED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-19T17:23:33.749Z"
+      }
+    ]
+  },
+  {
+    "id": "061a8114-8a97-404c-a7e6-193edf886d17",
+    "title": "Attendance Report — 2026-09-19",
+    "description": "Please collect attendance data for this class",
+    "priority": "High",
+    "dueDate": "2026-11-20",
+    "taskType": "Attendance Report",
+    "taskMeta": {
+      "classId": "c1",
+      "className": "CSE – III Year – A",
+      "semester": 6,
+      "academicYear": "2026–2027",
+      "averageAttendance": 91.2
+    },
+    "createdBy": {
+      "userId": "4",
+      "name": "HOD Prof. Williams",
+      "role": "HOD"
+    },
+    "assignmentType": "ASSIGNED",
+    "assignedTo": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "attachments": [],
+    "status": "APPROVED",
+    "currentApproverRole": null,
+    "currentApproverId": null,
+    "createdAt": "2026-09-19T17:11:51.271Z",
+    "updatedAt": "2026-09-19T17:23:34.140Z",
+    "timeline": [
+      {
+        "action": "CREATED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-19T17:11:51.271Z"
+      },
+      {
+        "action": "ASSIGNED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-19T17:11:51.271Z"
+      },
+      {
+        "action": "STARTED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T17:11:51.311Z"
+      },
+      {
+        "action": "UPDATED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T17:11:51.321Z"
+      },
+      {
+        "action": "SUBMITTED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T17:11:51.329Z"
+      },
+      {
+        "action": "APPROVED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-19T17:23:34.140Z"
+      }
+    ]
+  },
+  {
+    "id": "ffbe885c-3ec0-46d7-a996-f9d0b78c5b41",
+    "title": "Attendance Report — 2026-09-19",
+    "description": "Assign to wrong class",
+    "priority": "Low",
+    "dueDate": "2026-12-01",
+    "taskType": "Attendance Report",
+    "taskMeta": {
+      "classId": "c_fake",
+      "className": "FAKE CLASS"
+    },
+    "createdBy": {
+      "userId": "4",
+      "name": "HOD Prof. Williams",
+      "role": "HOD"
+    },
+    "assignmentType": "ASSIGNED",
+    "assignedTo": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "attachments": [],
+    "status": "ASSIGNED",
+    "currentApproverRole": null,
+    "currentApproverId": null,
+    "createdAt": "2026-09-19T17:11:51.283Z",
+    "updatedAt": "2026-09-19T17:11:51.283Z",
+    "timeline": [
+      {
+        "action": "CREATED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-19T17:11:51.283Z"
+      },
+      {
+        "action": "ASSIGNED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-19T17:11:51.283Z"
+      }
+    ]
+  },
+  {
+    "id": "01e6c6f1-1a98-4d7c-b68d-4b1be5d8df82",
+    "title": "Attendance Report — 2026-09-19",
+    "description": "",
+    "priority": "Medium",
+    "dueDate": "2026-09-21",
+    "taskType": "Attendance Report",
+    "taskMeta": {
+      "classId": "c1",
+      "className": "CSE – III Year – A",
+      "semester": 5,
+      "academicYear": "2026–2027",
+      "averageAttendance": 88.5
+    },
+    "createdBy": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "assignmentType": "SELF",
+    "assignedTo": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "attachments": [
+      {
+        "id": "547154bc-4230-4259-a71a-2315a27d9996",
+        "originalName": "New Microsoft Word Document.docx",
+        "storedName": "f0cd53a5-7a31-44d5-8ad8-43d2b652bef0-New Microsoft Word Document.docx",
+        "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "size": 0
+      }
+    ],
+    "status": "APPROVED",
+    "currentApproverRole": null,
+    "currentApproverId": null,
+    "createdAt": "2026-09-19T17:57:31.305Z",
+    "updatedAt": "2026-09-19T17:59:14.219Z",
+    "timeline": [
+      {
+        "action": "CREATED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T17:57:31.305Z"
+      },
+      {
+        "action": "SUBMITTED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T17:57:31.312Z"
+      },
+      {
+        "action": "APPROVED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-19T17:59:14.219Z"
+      }
+    ]
+  },
+  {
+    "id": "9c45f65c-436c-4add-8d45-bf00b6f634d9",
+    "title": "Performance Report — 2026-09-19",
+    "description": "do the performance report for the class",
+    "priority": "Low",
+    "dueDate": "2026-09-21",
+    "taskType": "Performance Report",
+    "taskMeta": {
+      "classId": "c2",
+      "className": "CSE – II Year – B",
+      "semester": 3,
+      "academicYear": "2026–2027"
+    },
+    "createdBy": {
+      "userId": "4",
+      "name": "HOD Prof. Williams",
+      "role": "HOD"
+    },
+    "assignmentType": "ASSIGNED",
+    "assignedTo": {
+      "userId": "5",
+      "name": "Staff Mr. Davis",
+      "role": "Staff"
+    },
+    "attachments": [
+      {
+        "id": "71069d00-d342-49ac-8d08-1c650139c833",
+        "originalName": "New Microsoft Word Document.docx",
+        "storedName": "737acf59-8e86-4a0d-aa0b-f03d96365993-New Microsoft Word Document.docx",
+        "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "size": 0
+      }
+    ],
+    "status": "APPROVED",
+    "currentApproverRole": null,
+    "currentApproverId": null,
+    "createdAt": "2026-09-19T18:00:18.890Z",
+    "updatedAt": "2026-09-19T18:11:52.775Z",
+    "timeline": [
+      {
+        "action": "CREATED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-19T18:00:18.890Z"
+      },
+      {
+        "action": "ASSIGNED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-19T18:00:18.890Z"
+      },
+      {
+        "action": "UPDATED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T18:00:47.786Z"
+      },
+      {
+        "action": "SUBMITTED",
+        "actorId": "5",
+        "actorName": "Staff Mr. Davis",
+        "actorRole": "Staff",
+        "timestamp": "2026-09-19T18:00:47.794Z"
+      },
+      {
+        "action": "APPROVED",
+        "actorId": "4",
+        "actorName": "HOD Prof. Williams",
+        "actorRole": "HOD",
+        "timestamp": "2026-09-19T18:11:52.775Z"
       }
     ]
   }
